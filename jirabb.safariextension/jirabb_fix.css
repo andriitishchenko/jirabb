@@ -1,0 +1,50 @@
+.ghx-priority{
+width: 16px;
+height: 16px;
+}
+.ghx-priority img{
+	visibility: hidden;
+}
+.ghx-priority[title=Low]{
+	background-image:url('img/pr-low.png');
+}
+.ghx-priority[title=Medium]{
+	background-image:url('img/pr-med.png');
+}
+.ghx-priority[title=High]{
+	background-image:url('img/pr-high.png');
+}
+.ghx-priority[title=Gating]{
+	background-image:url('img/pr-crit.png');
+}
+.ghx-priority[title="Immediate Gating"]{
+	background-image:url('img/pr-imd.png');
+}
+.ghx-priority[title="Not Set"]{
+	background-image:url('img/pr-notset.png');
+}
+
+li.aui-list-item-li-not-set a.aui-iconised-link img{
+	content:url('img/pr-notset.png') !important; 
+}
+td.priority img[alt="Low"]
+, span#priority-val img[title^="Low"] 
+,li.aui-list-item-li-low a.aui-iconised-link img{
+	content:url('img/pr-low.png') !important; ;
+}
+td.priority img[alt="Medium"], span#priority-val img[title^="Medium"]
+,li.aui-list-item-li-medium a.aui-iconised-link img{
+	content:url('img/pr-med.png') !important; ;
+}
+td.priority img[alt="High"], span#priority-val img[title^="High"] 
+,li.aui-list-item-li-high a.aui-iconised-link img{
+	content:url('img/pr-high.png') !important; ;
+}
+td.priority img[alt="Gating"], span#priority-val img[title^="Gating"] 
+,li.aui-list-item-li-gating a.aui-iconised-link img{
+	content:url('img/pr-crit.png') !important; ;
+}
+td.priority img[alt="Immediate Gating"], span#priority-val img[title^="Immediate"] 
+,li.aui-list-item-li-immediate-gating a.aui-iconised-link img{
+	content:url('img/pr-imd.png') !important; ;
+}
