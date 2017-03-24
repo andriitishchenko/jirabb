@@ -70,5 +70,9 @@
 			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://raw.githubusercontent.com/andriitishchenko/jirabb/master/jirabb.safariextension/Info.plist</string>
+	<key>Website</key>
+	<string>https://github.com/andriitishchenko/jirabb/blob/master/jirabb.safariextz</string>
 </dict>
 </plist>
