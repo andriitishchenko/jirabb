@@ -16,10 +16,13 @@
   "content_scripts": [
     {
       "css": ["inject.css"],
-      "js": ["bg.js"],
+      // "js": ["inject.js"],
       "matches": ["*://jira.bbqnx.net/*"]
     }
   ],
     "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
-    "web_accessible_resources": [ "img/*"]
+    "web_accessible_resources": [ "img/*","fix.css"],
+    "background": {
+    "scripts": ["bg.js"]
+  }
 }
