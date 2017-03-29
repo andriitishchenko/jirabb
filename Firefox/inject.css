@@ -1,0 +1,85 @@
+@-moz-document domain(jira.bbqnx.net) {
+.ghx-priority{
+width: 16px;
+height: 16px;
+}
+
+a[title^="Not Set"] img{
+	content:url('chrome-extension://__MSG_@@extension_id__/img/pr-notset.png') !important; 
+}
+a[title^="Low"] img{
+	content:url('chrome-extension://__MSG_@@extension_id__/img/pr-low.png') !important; 
+}
+a[title^="Medium"] img{
+	content:url('chrome-extension://__MSG_@@extension_id__/img/pr-med.png') !important; 
+}
+a[title^="High"] img{
+	content:url('chrome-extension://__MSG_@@extension_id__/img/pr-high.png') !important; 
+}
+a[title^="Gating"] img{
+	content:url('chrome-extension://__MSG_@@extension_id__/img/pr-crit.png') !important; 
+}
+a[title^="Immediate"] img{
+	content:url('chrome-extension://__MSG_@@extension_id__/img/pr-imd.png') !important; 
+}
+
+:-webkit-any(span.issue-icons,.priority,span#priority-val) :-webkit-any(img[alt^="Not Set"],img[title^="Not Set"])
+,span[title^="Not Set"] img{
+  width: 0px !important; 
+  height: 0px !important; 
+  padding-left: 16px  !important;
+  padding-top: 16px  !important;
+  background:transparent url('chrome-extension://__MSG_@@extension_id__/img/pr-notset.png') no-repeat center !important; 
+  content: '' !important;
+}
+
+:-webkit-any(span.issue-icons,.priority,span#priority-val) :-webkit-any(img[alt="Low"],img[title^="Low"])
+,span[title^="Low"] img{
+  width: 0px !important; 
+  height: 0px !important; 
+  padding-left: 16px  !important;
+  padding-top: 16px  !important;
+  background:transparent url('chrome-extension://__MSG_@@extension_id__/img/pr-low.png') no-repeat center !important; 
+  content: '' !important;
+}
+
+:-webkit-any(span.issue-icons,.priority,span#priority-val) :-webkit-any(img[alt^="Medium"],img[title^="Medium"])
+,span[title^="Medium"] img{
+  width: 0px !important; 
+  height: 0px !important; 
+  padding-left: 16px  !important;
+  padding-top: 16px  !important;
+  background:transparent url('chrome-extension://__MSG_@@extension_id__/img/pr-med.png') no-repeat center !important; 
+  content: '' !important;
+}
+
+:-webkit-any(span.issue-icons,.priority,span#priority-val) :-webkit-any(img[alt="High"],img[title^="High"])
+,span[title^="High"] img{
+  width: 0px !important; 
+  height: 0px !important; 
+  padding-left: 16px  !important;
+  padding-top: 16px  !important;
+  background:transparent url('chrome-extension://__MSG_@@extension_id__/img/pr-high.png') no-repeat center !important; 
+  content: '' !important;
+}
+
+:-webkit-any(span.issue-icons,.priority,span#priority-val) :-webkit-any(img[alt="Gating"],img[title^="Gating"])
+,span[title^="Gating"] img{
+  width: 0px !important; 
+  height: 0px !important; 
+  padding-left: 16px  !important;
+  padding-top: 16px  !important;
+  background:transparent url('chrome-extension://__MSG_@@extension_id__/img/pr-crit.png') no-repeat center !important; 
+  content: '' !important;
+}
+
+:-webkit-any(span.issue-icons,.priority,span#priority-val) :-webkit-any(img[alt=^"Immediate"],img[title^="Immediate"])
+,span[title^="Immediate"] img{
+  width: 0px !important; 
+  height: 0px !important; 
+  padding-left: 16px  !important;
+  padding-top: 16px  !important;
+  background:transparent url('chrome-extension://__MSG_@@extension_id__/img/pr-imd.png') no-repeat center !important; 
+  content: '' !important;
+}
+}
