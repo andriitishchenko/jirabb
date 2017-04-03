@@ -1,10 +1,10 @@
 {
-  "name": "jirabb",
+  "name": "jirasif",
   "version": "0.0.1",
   "minimum_chrome_version": "16.0.884",
   "manifest_version": 2,
-  "description": "JiraBB hack",
-  "homepage_url": "https://github.com/andriitishchenko/jirabb",
+  "description": "Jira status Icon Fix",
+  "homepage_url": "https://github.com/andriitishchenko/jirasif",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -15,13 +15,13 @@
   ],
   "content_scripts": [
     {
-      "css": ["inject.css"],
+      "css": ["jirasif.css"],
       // "js": ["inject.js"],
       "matches": ["*://jira.bbqnx.net/*"]
     }
   ],
     "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
-    "web_accessible_resources": [ "img/*","fix.css"],
+    "web_accessible_resources": [ "img/*","jirasif.css"],
     "background": {
     "scripts": ["bg.js"]
   }

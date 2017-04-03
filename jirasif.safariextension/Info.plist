@@ -7,9 +7,9 @@
 	<key>Builder Version</key>
 	<string>12603.1.30.0.34</string>
 	<key>CFBundleDisplayName</key>
-	<string>jirabb</string>
+	<string>jirasif</string>
 	<key>CFBundleIdentifier</key>
-	<string>info.atfop.jirabb</string>
+	<string>info.atfop.jirasif</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -22,13 +22,13 @@
 		<array>
 			<dict>
 				<key>Identifier</key>
-				<string>jirabb_m</string>
+				<string>jirasif_m</string>
 				<key>Image</key>
 				<string>icon_1.png</string>
 				<key>Include By Default</key>
 				<true/>
 				<key>Label</key>
-				<string>jirabb</string>
+				<string>jirasif</string>
 			</dict>
 		</array>
 	</dict>
@@ -42,16 +42,16 @@
 		<dict>
 			<key>End</key>
 			<array>
-				<string>jirabb_fix.js</string>
+				<string>jirasif.js</string>
 			</array>
 		</dict>
 		<key>Stylesheets</key>
 		<array>
-			<string>jirabb_fix.css</string>
+			<string>jirasif.css</string>
 		</array>
 	</dict>
 	<key>Description</key>
-	<string>jirabb </string>
+	<string>jirasif </string>
 	<key>DeveloperIdentifier</key>
 	<string>J4NANQ9H36</string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -71,8 +71,8 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>https://raw.githubusercontent.com/andriitishchenko/jirabb/master/jirabb.safariextension/Info.plist</string>
+	<string>https://raw.githubusercontent.com/andriitishchenko/jirasif/master/jirasif.safariextension/Info.plist</string>
 	<key>Website</key>
-	<string>https://github.com/andriitishchenko/jirabb/blob/master/jirabb.safariextz</string>
+	<string>https://github.com/andriitishchenko/jirasif</string>
 </dict>
 </plist>
